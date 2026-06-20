@@ -1,47 +1,62 @@
-# AI Study Companion
+# 📚 CATALYST
 
-A multi-agent AI study assistant built using Google's Gemini API and Google ADK.
+Smart Learning Assistant built with Streamlit and Google's Gemini API.
+
+CATALYST is designed to help students with study planning, revision, quizzes, and exam preparation in a simple and practical way.
+
+---
 
 ## Features
 
 - Personalized study plans
-- Multiple-choice quiz generation
+- Quiz generation
 - Notes summarization
 - Exam preparation guidance
+- User-friendly interface
+- Powered by Gemini 2.5 Flash
 
-## Agents
+---
 
-### PlannerAgent
-Creates personalized study plans.
-
-### QuizAgent
-Generates quiz questions.
-
-### NotesAgent
-Summarizes study notes.
-
-### ExamAgent
-Creates revision schedules and exam preparation plans.
-
-## Technologies Used
+## Tech Stack
 
 - Python
-- Gemini API
-- Google ADK
-- Google Colab
+- Streamlit
+- Google Gemini API
 - GitHub
+
+---
+
+## Available Tools
+
+### Study Plan
+Creates structured study schedules for any topic.
+
+### Quiz
+Generates practice questions with answers and explanations.
+
+### Notes Summary
+Provides concise revision notes.
+
+### Exam Preparation
+Builds revision strategies and preparation plans.
+
+---
 
 ## Project Structure
 
-AI_Study_Companion.ipynb
+```
+AI-Study-Companion
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── AI_Study_Companion.ipynb
+└── .streamlit
+      └── config.toml
+```
 
-## Future Improvements
-
-- Add memory between agents
-- Build a Streamlit web interface
-- Deploy to Google Cloud
-- Add PDF upload support
+---
 
 ## Author
 
-Sanket Agrawal
+**Sanket Agarwal**
