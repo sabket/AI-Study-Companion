@@ -52,7 +52,7 @@ with st.sidebar:
     execute_btn = st.button("Initialize Sequence", use_container_width=True)
     
     st.divider()
-    st.caption("Developed by Sanketagain")
+    st.caption("Architected by Sabket | ISM ")
 
 # --- MAIN INTERFACE ---
 st.title("CATALYST Orchestrator")
